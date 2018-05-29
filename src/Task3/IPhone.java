@@ -3,6 +3,7 @@ package Task3;
 public class IPhone extends Phone {
 
     protected String imei;
+    protected String number = "050-111-22-33";
 
     public IPhone(){
         touch = true;

@@ -2,6 +2,8 @@ package Task3;
 
 public class Nokia3310 extends Phone {
 
+    protected String number = "050-333-11-22";
+
     public Nokia3310(){
         touch = false;
         hasWifi = false;

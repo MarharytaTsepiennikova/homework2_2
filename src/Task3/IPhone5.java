@@ -2,6 +2,8 @@ package Task3;
 
 public class IPhone5 extends IPhone {
 
+    protected String number = "050-222-11-33";
+
     public IPhone5(){
         System.out.println("IPhone5 constructor");
         screenSize = 4;

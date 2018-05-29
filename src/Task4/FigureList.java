@@ -12,8 +12,8 @@ public class FigureList {
     public double getMaxSquare(double square){
         double result = 0;
         for (int index = 0; index < position; index++) {
-            if (list[index] > result){
-                result = list[index]
+            if (list[index].getSquare() > result){
+                result = list[index].getSquare();
             }
         }
         return result;
@@ -22,10 +22,10 @@ public class FigureList {
     public double getMinSquare(double square){
         double result = 0;
         for (int index = 0; index < position; index++) {
-            if (list[index] < list[0]){
-                list[0] = list[index];
+            if (list[index].getSquare() < result){
+                result = list[index].getSquare();
             }
-            result = list[0];
+
         }
         return result;
     }

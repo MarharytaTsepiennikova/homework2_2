@@ -2,6 +2,8 @@ package Task3;
 
 public class SamsungS4 extends Phone {
 
+    protected String number = "050-321-12-31";
+
     public SamsungS4(){
         hasWifi = true;
         touch = true;
